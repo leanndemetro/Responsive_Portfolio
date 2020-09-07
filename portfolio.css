@@ -1,0 +1,84 @@
+
+.nav-item {
+
+    list-style: none;
+
+    font-size: 15px;
+
+    float: right;
+
+    text-align: center;
+
+    color: black;
+
+    display: block;
+
+    text-decoration: none;
+
+    margin-right: 0;   /* space between links */
+
+    width: auto;   /* adjust width as needed or use auto */
+
+    padding: 3px;
+
+    line-height: .05px;
+
+    border-right: 1px solid #000;
+
+}
+
+/**remove from last item**/
+
+.nav-item:nth-of-type(3) {
+
+    border: none;
+
+}
+
+/**float clearing**/
+
+.nav-item:after {
+
+     content: '';
+
+     clear:right;
+
+     display:block;
+
+}
+
+
+#myName {
+    font-size: 30px;
+    color: Black;
+    padding: 10px;
+    margin: 25px;
+}
+
+
+* {
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+#cardImage {
+    height: 80px;
+    width: 150px;
+}
+
+.container {
+    border: 1px solid lightblue;
+    width: 600px;
+    height: 75%;
+    position: relative;
+}
+
+.card {
+    padding: 80px;
+}
+
+#copyRight {
+    height: 8%;
+    width: 10%;
+}
+
+
