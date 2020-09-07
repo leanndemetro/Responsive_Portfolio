@@ -5,9 +5,10 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="index.css"> 
         <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
-        
+        <!--page title that appears on open tab-->
         <title>Front page</title>
-        <!--add quotes on end of next string to edit navbar appearance-->
+        <!--navbar bootstrap code-->
+        <!--makes navbar color theme the "light" option-->
         <nav class="navbar navbar-light" style="background-color: white;">
             <span class="navbar-brand mb-0 h1" id="myName">ALYSSA DE METRO</span>
 
@@ -25,19 +26,46 @@
           </nav>
     </head>
 
-
-    <body class="body">
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title">ABOUT ME:</h5>
-              <hr>
-              <img class="catImage" src="https://i.pinimg.com/564x/56/be/cd/56becde2394b7fe4360cce00fc5a11f0.jpg" alt="blackCat">
-              <p class="card-text">Alyssa De Metro is a 25 year old Orlando native. After 5 years of travel, primarily based out of Sydney, Australia she decided to return to her hometown and begin a new career in web developement. Her interests include reading, writing short stories or poetry, painting in the early hours of the morning, and chasing around her black cat called Kitty.</p>
-            </div>
+    <body>
+      <!--"card" code from Bootstrap starts here-->
+      <div class="card">
+      <!--"container" below cotains all card info to that it can be organized via bootstrap grid system-->
+        <div class="container">
+          <!--ROW 1-->
+          <div class="row">
+          <!--column 1- empty & goes across entire card-->
+            <div class="col-md-12"><p></p></div>
           </div>
+          <!--ROW 2-->
+          <div class="row">
+          <!--Column 2- contains "about me" and goes across entire card-->
+          <div class="col-md-12"><h5 class="card-header">ABOUT ME</h5></div>
+          </div>
+          <!--specifies body section of the card-->
+        <div class="card-body">
+          <!--ROW 3-->
+        <div class="row">
+          <!--Column 3- targets the img and stretches across half the card in this row-->
+          <div class="col-md-6"><img src="https://i.pinimg.com/564x/56/be/cd/56becde2394b7fe4360cce00fc5a11f0.jpg" id="cardImage" alt="cardImage">
+          </div>
+          <!--Colum 4- targets the "card body text" and stretches across other half of the card in this row-->
+      <div class="col-md-6"><p class="card-text">Alyssa De Metro is a 25 year old Orlando native. After 5 years of travel, primarily based out of Sydney, Australia she decided to return to her hometown and begin a new career in web developement. Her interests include reading, writing short stories or poetry, painting in the early hours of the morning, and chasing around her black cat called Kitty.</p></div>
+        </div>
+        </div>
+      </div>
+      </div>
+    </body>
+
+    <nav id="footer" class="navbar fixed-bottom navbar-light bg-light">
+      <a class="navbar-brand" href="#"><img id="copyRight" src="https://lh3.googleusercontent.com/proxy/4_mjcC1m4WdoaddOw_UytDf-eLPVgvtr8W-lWVfc6wbAbkEen6BQqTET2XR5MjBER2YF4dswi4PY0AKriXB1et5TySye4BIEpVsCmUX1QNo06m2XyWES-gcQBY0" alt="copyright" loading="lazy"></a>
+  
+    </nav>
+
+  <!--Bootstap JS code-->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    </body>
+  
+</body>
 
 </html>
