@@ -1,6 +1,5 @@
 
 
-
 .nav-item {
 
     list-style: none;
@@ -62,24 +61,34 @@
     font-family: 'Didact Gothic', sans-serif;
 }
 
-#cardImage {
-    height: 300px;
-    width: 100%;
-}
 
 .container {
     border: 1px solid lightblue;
     width: 600px;
-    height: 75%;
+    height: 425px;
 }
 
 .card {
     padding: 80px;
 }
 
-#copyRight {
-    height: 8%;
-    width: 10%;
+
+.card-body {
+    position: relative;
+    top: -25px;
+    left: 15px;
+    width: 500px;
 }
 
+#textArea {
+    width: 460px;
+    rows: 3;
+    columns: 80;
+    border-color: lightgrey;
+}
 
+.footer {
+    position: absolute;
+    top: 590px;
+    left: 630px;
+}
