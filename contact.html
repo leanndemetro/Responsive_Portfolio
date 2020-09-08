@@ -29,36 +29,38 @@
     <body>
       <!--"card" code from Bootstrap starts here-->
       <div class="card">
-      <!--"container" below cotains all card info so that it can be organized via bootstrap grid system-->
-        <div class="container">
-          <!--ROW 1-->
-          <div class="row">
-          <!--column 1- empty & goes across entire card-->
-            <div class="col-md-12"><p></p></div>
-          </div>
-          <!--ROW 2-->
-          <div class="row">
-          <!--Column 2- contains "about me" and goes across entire card-->
+      <!--creates a container with the entire card inside it-->
+      <div class="container">
+      <!--created a new row-->
+      <div class="row">
+          <!--Column 2- contains "Contact" and goes across entire card-->
           <div class="col-md-12"><h5 class="card-header">CONTACT</h5></div>
           </div>
           <!--specifies body section of the card-->
         <div class="card-body">
-          <!--ROW 3-->
-        <div class="row">
-          <!--Column 3- targets the img and stretches across half the card in this row-->
-          <div class="col-md-6"><img src="https://i.pinimg.com/564x/56/be/cd/56becde2394b7fe4360cce00fc5a11f0.jpg" id="cardImage" alt="cardImage">
-          </div>
-          <!--Colum 4- targets the "card body text" and stretches across other half of the card in this row-->
-      <div class="col-md-6"><p class="card-text">Alyssa De Metro is a 25 year old Orlando native. After 5 years of travel, primarily based out of Sydney, Australia she decided to return to her hometown and begin a new career in web developement. Her interests include reading, writing short stories or poetry, painting in the early hours of the morning, and chasing around her black cat called Kitty.</p></div>
+      <p class="card-text">
+        <form>
+        <div class="form-group">
+          <label for="formGroupExampleInput">NAME</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Smith">
         </div>
-        </div>
+        <div class="form-group">
+          <label for="formGroupExampleInput2">EMAIL</label>
+          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Example@gmail.com">
+      </form>
+      <div class="form-group">
+        <label for="formGroupExampleInput">MESSAGE</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+      </div>
+      
+    </p>
       </div>
       </div>
     </body>
 
     <!--Footer bootstrap code-->
     <nav id="footer" class="navbar fixed-bottom navbar-light bg-light">
-      <a class="navbar-brand" href="#"><img id="copyRight" src="https://lh3.googleusercontent.com/proxy/4_mjcC1m4WdoaddOw_UytDf-eLPVgvtr8W-lWVfc6wbAbkEen6BQqTET2XR5MjBER2YF4dswi4PY0AKriXB1et5TySye4BIEpVsCmUX1QNo06m2XyWES-gcQBY0" alt="copyright" loading="lazy"></a>
+      <a class="navbar-brand" href="#"><img id="copyRight" src="#" alt="copyright" loading="lazy"></a>
   
     </nav>
 
