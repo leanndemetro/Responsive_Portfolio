@@ -64,7 +64,7 @@
 
 #cardImage {
     height: 300px;
-    width: 100%;
+    width: 250px;
 }
 
 .container {
@@ -77,9 +77,13 @@
     padding: 80px;
 }
 
-#copyRight {
-    height: 8%;
-    width: 10%;
+
+#AD {
+    font-style: 50px;
+    text-transform: uppercase;
 }
 
+body {
+    background-image: url("/images/dark_leather.png");
+}
 
