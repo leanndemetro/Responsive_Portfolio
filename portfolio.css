@@ -60,25 +60,40 @@
     font-family: 'Didact Gothic', sans-serif;
 }
 
-#cardImage {
-    height: 75%;
-    width: 150px;
-}
 
 .container {
     border: 1px solid lightblue;
     width: 600px;
-    height: 75%;
-    position: relative;
+    height: 400px;
 }
 
 .card {
     padding: 80px;
 }
 
-#copyRight {
-    height: 8%;
-    width: 10%;
+.portIMG {
+
+    border: 1px solid lightblue;
+    background-color: white;
+    width: 290px;
+    height: 45px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+    position: absolute;
+    display: inline-block;
+    top: 125px;
+    left: 15px;
+    
+}
+
+#horiseonIMG {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    height: 35%;
+    top: 25px;
 }
 
 
