@@ -1,94 +1,164 @@
 
-
+/* targets all li's with a class of nav-item */
 .nav-item {
-
+    
+    /* ensures there are no styles applied to .nav-item elements */
     list-style: none;
 
+    /* sets text size */    
     font-size: 15px;
 
+    /* sets text position to the right side of the nav bar */
     float: right;
 
+    /* aligns the text within the right side to a centered position */
     text-align: center;
 
-    color: black;
-
+    /* makes list items display as a block element */
     display: block;
 
+    /* ensures the text has no formatting */
     text-decoration: none;
 
-    margin-right: 0;   /* space between links */
+    /* space between links */
+    margin-right: 0;   
 
-    width: auto;   /* adjust width as needed or use auto */
+     /* adjusts width to auto */
+    width: auto;   
 
+    /* sets space around the elements */
     padding: 3px;
 
+    /* sets line spacing */
     line-height: .05px;
 
+    /* creates the border lines in between links */
     border-right: 1px solid #000;
 
 }
 
-/**remove from last item**/
 
+/* selects the last list item**/
 .nav-item:nth-of-type(3) {
 
+    /* removes the border line from appearing after the last list item */
     border: none;
 
 }
 
-/**float clearing**/
-
+/* selects all nav-item class elements and applies css to the end of each one */
 .nav-item:after {
 
-     content: '';
-
-     clear:right;
-
-     display:block;
-
+    /* Tells the browser to not let content float on the right of element */
+    clear:right;
+    
+    /* Tells the browser to treat this element as a block level element */
+    display:block;
 }
 
-
+/* targets elements with an ID of myName */
 #myName {
+
+    /* sets font size */
     font-size: 30px;
-    color: Black;
-    padding: 10px;
-    margin: 25px;
+
+    /* sets font color */
+    color: black;
 }
 
 
+/* selects all elements */
 * {
-    font-family: 'Didact Gothic', sans-serif;
+    /* sets font */
+    font-family:'Petit Formal Script', cursive;
 }
 
-
+/* selects container class elements */
 .container {
-    border: 1px solid lightblue;
+
+    /* sets border and border appearance, container width and height, and background color */
+    border: 5px solid white;
+
+    border-radius: 15px;
+
     width: 600px;
-    height: 425px;
-}
 
-.card {
-    padding: 80px;
-}
+    height: 75%;
 
+    background-color: white;
 
-.card-body {
+    /* makes the container position relative */
     position: relative;
+}
+
+/* selects card class element */
+.card {
+    
+    /* sets card padding */
+    padding: 80px;
+
+    /* sets background image to rough cloth texture */
+    background-image: url(/Users/alyssademetro/Documents/UCF/Responsive_Portfolio/02-CSS-Bootstrap/instructions/Assets/Images/roughcloth.png)
+
+}
+
+/* selects card-body class elements */
+.card-body {
+
+    /* sets positioning settings */
+    position: relative;
+
     top: -25px;
+
     left: 15px;
+
     width: 500px;
 }
 
+/* selects textArea ID elements */
 #textArea {
+     /* sets the text area box's sizing and appearance settings */
     width: 460px;
+
     rows: 3;
+
     columns: 80;
+
     border-color: lightgrey;
 }
 
-.footer {
-    position: absolute;
-    top: 590px;
-    left: 630px;
+/* targets footer ID elements */
+#footer {
+
+    /* sets border styles */
+    border: 5px solid white;
+    border-radius: 15px;
+
+    /* Sets the footers position on the page and size to ensure it reacts properly to the re-sizing of the screen */
+    position: relative;
+
+    bottom: 0px;
+
+    top: 100px;
+
+    width: 253%;
+
+    height: 70px;
+
+    right: 430px;
+
+    /* sets the footer background image to rough cloth texture */
+    background-image: url(/Users/alyssademetro/Documents/UCF/Responsive_Portfolio/02-CSS-Bootstrap/instructions/Assets/Images/roughcloth.png)
+}
+
+/* targets nav ID elements */
+#nav {
+    
+    /* sets border styles */
+    border: 5px solid white;
+
+    border-radius: 15px;
+
+    /* sets background image to rough cloth texture */
+    background-image: url(/Users/alyssademetro/Documents/UCF/Responsive_Portfolio/02-CSS-Bootstrap/instructions/Assets/Images/roughcloth.png)
 }
