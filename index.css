@@ -83,6 +83,8 @@
     width: 275px;
 
     padding: 20px;
+
+    display: block;
 }
 
 /* selects container class elements */
