@@ -120,10 +120,6 @@
      /* sets the text area box's sizing and appearance settings */
     width: 460px;
 
-    rows: 3;
-
-    columns: 80;
-
     border-color: lightgrey;
 }
 
