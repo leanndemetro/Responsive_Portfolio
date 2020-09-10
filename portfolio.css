@@ -110,7 +110,7 @@
     padding: 80px;
 
     /* sets background image to rough cloth texture */
-    background-image: url(/Users/alyssademetro/Documents/UCF/Responsive_Portfolio/02-CSS-Bootstrap/instructions/Assets/Images/roughcloth.png)
+    background-image: url(/users/alyssademetro/documents/ucf/responsive_portfolio/02-css-bootstrap/instructions/assets/images/roughcloth.png)
 
 }
 
@@ -123,7 +123,7 @@
     border-radius: 15px;
 
     /* sets background image to rough cloth texture */
-    background-image: url(/Users/alyssademetro/Documents/UCF/Responsive_Portfolio/02-CSS-Bootstrap/instructions/Assets/Images/roughcloth.png)
+    background-image: url(/users/alyssademetro/documents/ucf/responsive_portfolio/02-css-bootstrap/instructions/assets/images/roughcloth.png)
 }
 
 /* targets footer ID elements */
@@ -143,7 +143,7 @@
     height: 150px;
 
     /* sets the footer background image to rough cloth texture */
-    background-image: url(/Users/alyssademetro/Documents/UCF/Responsive_Portfolio/02-CSS-Bootstrap/instructions/Assets/Images/roughcloth.png)
+    background-image: url(/users/alyssademetro/documents/ucf/responsive_portfolio/02-css-bootstrap/instructions/assets/images/roughcloth.png)
 }
 
 /* targets copyright ID element */

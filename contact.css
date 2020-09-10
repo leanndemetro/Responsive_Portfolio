@@ -98,7 +98,7 @@
     padding: 80px;
 
     /* sets background image to rough cloth texture */
-    background-image: url(/Users/alyssademetro/Documents/UCF/Responsive_Portfolio/02-CSS-Bootstrap/instructions/Assets/Images/roughcloth.png)
+    background-image: url(/users/alyssademetro/documents/ucf/responsive_portfolio/02-css-bootstrap/instructions/assets/images/roughcloth.png)
 
 }
 
@@ -133,19 +133,17 @@
     /* Sets the footers position on the page and size to ensure it reacts properly to the re-sizing of the screen */
     position: relative;
 
-    bottom: 0px;
+    bottom: 0;
 
-    top: 100px;
+    width: 100%;
 
-    width: 253%;
-
-    height: 70px;
-
-    right: 430px;
+    height: 125px;
 
     /* sets the footer background image to rough cloth texture */
-    background-image: url(/Users/alyssademetro/Documents/UCF/Responsive_Portfolio/02-CSS-Bootstrap/instructions/Assets/Images/roughcloth.png)
+    background-image: url(/users/alyssademetro/documents/ucf/responsive_portfolio/02-css-bootstrap/instructions/assets/images/roughcloth.png)
 }
+
+
 
 /* targets nav ID elements */
 #nav {
@@ -156,5 +154,5 @@
     border-radius: 15px;
 
     /* sets background image to rough cloth texture */
-    background-image: url(/Users/alyssademetro/Documents/UCF/Responsive_Portfolio/02-CSS-Bootstrap/instructions/Assets/Images/roughcloth.png)
+    background-image: url(/users/alyssademetro/documents/ucf/responsive_portfolio/02-css-bootstrap/instructions/assets/images/roughcloth.png)
 }
