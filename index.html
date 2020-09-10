@@ -4,63 +4,65 @@
         <!--CSS stylesheet links-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="index.css"> 
-        <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Parisienne&family=Petit+Formal+Script&display=swap" rel="stylesheet">
         <!--page title that appears on open tab-->
         <title>About me</title>
         <!--navbar bootstrap code-->
         <!--makes navbar color theme the "light" option-->
-        <nav class="navbar navbar-light" style="background-color: white;">
-            <span class="navbar-brand mb-0 h1" id="myName">ALYSSA DE METRO</span>
+        <nav id="nav" class="navbar navbar-light" style="background-color: white;">
+            <span class="navbar-brand mb-0 h1" id="myName">Alyssa De Metro</span>
 
              <ul class="nav justify-content-end">
             <li class="nav-item">
               <!--links to specified pages-->
-              <a class="nav-link active" href="index.html">ABOUT</a>
+              <a class="nav-link active" href="index.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">CONTACT</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
           </nav>
     </head>
 
     <body>
+      
       <!--"card" code from Bootstrap starts here-->
       <div class="card">
-      <!--"container" below cotains all card info to that it can be organized via bootstrap grid system-->
+      <!--"container" below cotains all card info so that it can be organized via bootstrap grid system-->
         <div class="container">
           <!--ROW 1-->
           <div class="row">
           <!--column 1- empty & goes across entire card-->
-            <div class="col-md-12"><p></p></div>
+            <div class="col-sm-12"><p></p></div>
           </div>
           <!--ROW 2-->
           <div class="row">
           <!--Column 2- contains "about me" and goes across entire card-->
-          <div class="col-md-12"><h5 class="card-header">ABOUT ME</h5></div>
+          <div class="col-sm-12"><h5 class="card-header">About me</h5></div>
           </div>
           <!--specifies body section of the card-->
         <div class="card-body">
           <!--ROW 3-->
         <div class="row">
           <!--Column 3- targets the img and stretches across half the card in this row-->
-          <div class="col-md-6"><img src="https://i.pinimg.com/564x/56/be/cd/56becde2394b7fe4360cce00fc5a11f0.jpg" id="cardImage" alt="cardImage">
+          <div class="col-sm-6"><img src="https://i.pinimg.com/564x/56/be/cd/56becde2394b7fe4360cce00fc5a11f0.jpg" id="cardImage" alt="cardImage">
           </div>
-          <!--Colum 4- targets the "card body text" and stretches across other half of the card in this row-->
-      <div class="col-md-6"><p class="card-text">Alyssa De Metro is a 25 year old Orlando native. After 5 years of travel, primarily based out of Sydney, Australia she decided to return to her hometown and begin a new career in web development. Her interests include reading, writing short stories or poetry, painting in the early hours of the morning, and chasing around her black cat called Kitty.</p></div>
+          <!--Column 4- targets the "card body text" and stretches across other half of the card in this row-->
+      <div class="col-sm-6"><p class="card-text">Alyssa De Metro is a 25 year old Orlando native. After 5 years of travel, primarily based out of Sydney, Australia she decided to return to her hometown and begin a new career in web development. Her interests include reading, writing short stories or poetry, painting in the early hours of the morning, and chasing around her black cat called Kitty.</p></div>
         </div>
         </div>
       </div>
       </div>
+      
 
     <!--Footer bootstrap code-->
-    <footer class="page-footer font-small blue">
+    <footer id="footer" class="page-footer font-small blue" style="background-color: white;">
 
       <!-- Copyright -->
-      <div class="footer-copyright text-center py-3">© 2020 Copyright
+      <div id="copyRight" class="footer-copyright text-center py-3"> © 2020 Copyright
       </div>
       
     
