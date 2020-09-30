@@ -156,3 +156,7 @@
     /* sets background image to rough cloth texture */
     background-image: url(02-CSS-Bootstrap/instructions/Assets/Images/roughcloth.png)
 }
+
+.cardImage {
+    padding: 100px;
+}

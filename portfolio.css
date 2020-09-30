@@ -135,12 +135,12 @@
 
     /* Sets the footers position on the page and size to ensure it reacts properly to the re-sizing of the screen */
     position: relative;
-
+ 
     bottom: 0;
 
     width: 100%;
 
-    height: 150px;
+    height: 130px;
 
     /* sets the footer background image to rough cloth texture */
     background-image: url(02-CSS-Bootstrap/instructions/Assets/Images/roughcloth.png)
@@ -183,9 +183,9 @@
 
     display: inline-block;
 
-    top: 125px;
+    top: 115px;
 
-    left: 15px;
+    right: 5px;
     
 }
 
@@ -198,7 +198,46 @@
     height: 200px;
     width: 290px;
     top: 25px;
+    right: 35px;
 
+}
+
+#peckish {
+    /* sets positioning settings */
+    position: relative;
+    height: 200px;
+    width: 290px;
+    left: 250px;
+    bottom: 175px;
+}
+
+.peckIMG {
+     /* sets border styles */
+     border: 5px solid white;
+     border-radius: 15px;
+ 
+     /* edit's element's background and text colors and size */
+     background-color: white;
+ 
+     font-size: 20px;
+ 
+     /* sets the element's positioning settings */
+     width: 290px;
+ 
+     height: 45px;
+ 
+     text-align: center;
+ 
+     padding: 5px;
+ 
+     position: absolute;
+ 
+     display: inline-block;
+
+     bottom: 225px;
+
+     left: 265px;
+     
 }
 
 
