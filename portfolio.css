@@ -89,25 +89,23 @@
 
 /* selects container class elements */
 .container {
-
+    
     /* sets border and border appearance, container width and height, and background color */
     border: 5px solid white;
 
     border-radius: 15px;
 
-    width: 600px;
-
-    height: 580px;
 
     background-color: white;
+
+    width: 700px;
 
 }
 
 /* selects card class element */
 .card {
     
-    /* sets card padding */
-    padding: 80px;
+  
 
     /* sets background image to rough cloth texture */
     background-image: url(02-CSS-Bootstrap/instructions/Assets/Images/roughcloth.png)
@@ -129,16 +127,11 @@
 /* targets footer ID elements */
 #footer {
 
-    /* sets border styles */
+    padding: 25px;
     border: 5px solid white;
     border-radius: 15px;
 
-    /* Sets the footers position on the page and size to ensure it reacts properly to the re-sizing of the screen */
-    position: relative;
- 
-    top: 0px;
 
-    width: 100%;
 
     height: 130px;
 
@@ -149,8 +142,7 @@
 /* targets copyright ID element */
 #copyRight {
 
-    /* makes the copyright img relative to the browser settings */
-   position: relative;
+
 
    /* makes the copyright text position 30px from the footer top */
    top: 10px;
@@ -177,76 +169,52 @@
 
     text-align: center;
 
-    padding: 5px;
+  
 
-    position: absolute;
-
-    display: inline-block;
-
-    top: 115px;
-
-    right: 5px;
-    
 }
 
 /* targets the horiseon page image element */
 #horiseon {
 
     /* sets positioning settings */
-    position: relative;
+
     text-align: center;
     height: 200px;
     width: 290px;
-    top: 25px;
-    right: 35px;
+   
 
 }
 
 #peckish {
     /* sets positioning settings */
-    position: relative;
+    
     height: 200px;
     width: 290px;
-    left: 250px;
-    bottom: 175px;
+    
 }
 
 #burgerBuilder {
-    position: relative;
+   
     height: 200px;
     width: 290px;
-    bottom: 150px;
-    right: 15px;
+   
 }
 
-.peckIMG {
-     /* sets border styles */
-     border: 5px solid white;
-     border-radius: 15px;
- 
-     /* edit's element's background and text colors and size */
-     background-color: white;
- 
-     font-size: 20px;
- 
-     /* sets the element's positioning settings */
-     width: 290px;
- 
-     height: 45px;
- 
-     text-align: center;
- 
-     padding: 5px;
- 
-     position: absolute;
- 
-     display: inline-block;
-
-     bottom: 225px;
-
-     left: 265px;
-     
+#growth {
+    height: 200px;
+    width: 290px;
 }
+
+#teamBuilder {
+    height: 200px;
+    width: 290px;
+}
+
+#scheduler {
+    height: 200px;
+    width: 290px;
+}
+
 
 .ulburger {
     
@@ -271,13 +239,7 @@
   
       padding: 5px;
   
-      position: relative;
-  
-      display: inline-block;
-
-      bottom: 260px;
-
-      right: 15px;
+     
 }
 
 
