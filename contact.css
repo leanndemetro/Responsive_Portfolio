@@ -89,17 +89,33 @@
 
     /* makes the container position relative */
     position: relative;
+
+    text-align: center;
 }
 
 /* selects card class element */
 .card {
     
+    height: 700px;
     /* sets card padding */
     padding: 80px;
 
     /* sets background image to rough cloth texture */
     background-image: url(02-CSS-Bootstrap/instructions/Assets/Images/roughcloth.png)
 
+}
+
+.link1 {
+    padding: 15px;
+    position: relative;
+    top: 36px;
+    font-size: 25px;
+}
+.link2 {
+    padding: 15px;
+    position: relative;
+    right: 20px;
+    font-size: 25px;
 }
 
 /* selects card-body class elements */

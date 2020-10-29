@@ -82,9 +82,16 @@
     
     width: 275px;
 
-    padding: 20px;
+    padding: 10px;
+     
+    right: 20px;
 
-    display: block;
+    position: relative;
+
+}
+
+.resumeText {
+    font-size: 20px;
 }
 
 /* selects container class elements */
@@ -101,15 +108,14 @@
 
     background-color: white;
 
-    /* makes the container position relative */
-    position: relative;
+  
 }
 
 /* selects card class element */
 .card {
     
     /* sets card padding */
-    padding: 80px;
+    padding: 120px;
 
     /* sets background image to rough cloth texture */
     background-image: url(02-CSS-Bootstrap/instructions/Assets/Images/roughcloth.png)
@@ -136,41 +142,15 @@
 }
 
 /* targets footer ID elements */
-#footer {
-
-    /* sets border styles */
+.page-footer    {
     border: 5px solid white;
     border-radius: 15px;
-
-    bottom: 0;
-
-    width: 100%;
-
-    height: 150px;
-
+   
     /* sets the footer background image to rough cloth texture */
     background-image: url(02-CSS-Bootstrap/instructions/Assets/Images/roughcloth.png)
 }
 
-/* targets copyright ID element */
-#copyRight {
 
-    /* makes the copyright img relative to the browser settings */
-   position: relative;
 
-   /* makes the copyright text position 30px from the footer top */
-   top: 30px;
-}
 
-/* targets card-text class elements */
-.card-text {
-
-    /* makes the card text position 15px from container top */
-    top: 15px;
-
-    /* sets the font size */
-    font-size: 15px;
-
-    position: relative;
-}
     
